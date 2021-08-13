@@ -1,0 +1,110 @@
+.div-clave{
+	background: #000000;
+	padding-bottom: 8px;
+}
+.clave{
+	width: 150px;
+	height: 180px;
+	margin: 10px 0 0 600px ;
+}
+.nave{
+
+    margin-left: 130px;
+    padding: 20px 0;
+}
+
+.div-fundo{
+	background: #383838;
+}
+.lista {
+
+		display: inline;
+		margin-right: 60px;
+
+}	
+
+.link{
+
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 23px;
+	color: #000000;
+}
+.link:hover {
+	color: #C78C19;
+	text-decoration: underline;	
+}
+
+main{
+	background: #fffce5;
+}
+
+form label{
+	display: block;
+	margin-left: 300px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.caixas{
+	width: 500px;
+	height: 30px;
+	margin-left: 300px;
+}
+
+#msg{
+	width: 500px;
+	height: 80px;
+	margin-left: 300px;
+	margin-bottom: 20px;
+}
+
+.titulos{
+	display: block;
+	margin-left: 300px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+select{
+	margin-left: 300px;
+}
+
+.enviar{
+	position: relative;
+	left: 300px;
+	margin: 20px 0 50px 0;
+	width: 300px;
+	height: 80px;
+	background: #FF8C00;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fdfdfd;
+	border: none;
+	border-radius: 12px;
+	transition: 1s all;
+	cursor: pointer;
+
+}	
+
+.enviar:hover {
+
+		background: darkorange;
+		transform: scale(1.2);
+}
+
+.rodape{
+	width: 100%;
+    height: 201px;
+    background: #000000;
+}
+
+.copyright{
+
+	color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head lang="pt-br">
+		<meta charset="utf-8">
+		<title>Escola de música - Clave de sol</title>
+		<link rel="icon" href="music.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="contato.css">
+	</head>
+	<body class="corpo">
+		
+		<header class="cabecalho">
+			<div class="div-clave"><img class="clave" src="clave.png"></div>
+				<nav class="nave">
+					<ul>
+						<li class="lista"><a class="link" href="index.html">Home</a></li>
+						<li class="lista"><a class="link" href="cursos.html">Cursos</a></li>
+						<li class="lista"><a class="link" href="links.html">Links</a></li>
+						<li class="lista"><a class="link" href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+		</header>
+		<main>
+			<form>
+				
+				<div>
+					<label for="name">Nome e Sobrenome</label>
+					<input class="caixas" type="text" id="name" name="nome" required>
+				</div>
+
+				<div>
+					<label for="mail">Email</label>
+					<input class="caixas" type="email" id="mail" name="endereco" required placeholder="seuemail@dominio.com">
+				</div>
+
+				<div>
+					<label for="telefone">Telefone</label>
+					<input class="caixas" type="tel" id="telefone" name="tel" required placeholder="(XX) XXXXX-XXXX">
+				</div>
+				
+				<div>
+					<label for="msg">Mensagens ou Sugestões:</label>
+        			<textarea cols="70" rows="1" id="msg"></textarea>
+				</div>
+
+				<fieldset>
+					<legend class="titulos">Como prefere o nosso contato?</legend>
+					<label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+				
+
+					<label for="radio-watsapp"><input type="radio" name="contato" value="watsapp" id="radio-watsapp" checked>WatsApp</label>
+
+				</fieldset>
+
+					<div>
+						<p class="titulos">Qual período prefere estudar?</p>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</div>
+
+					<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
+
+
+
+			</form>
+		</main>
+
+		<footer class="rodape">
+				
+				<p class="copyright">&copy; Copyright Clave de sol - 2019</p>
+		</footer>
+
+	</body>
+</html>	

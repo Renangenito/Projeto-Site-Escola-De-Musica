@@ -1,0 +1,139 @@
+.div-clave{
+	background: #000000;
+	padding-bottom: 8px;
+}
+.clave{
+	width: 150px;
+	height: 180px;
+	margin: 10px 0 0 600px ;
+}
+.nave{
+
+    margin-left: 130px;
+    padding: 20px 0;
+}
+
+.div-fundo{
+	background: #383838;
+}
+.lista {
+
+		display: inline;
+		margin-right: 60px;
+
+}	
+
+.link{
+
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 23px;
+	color: #000000;
+}
+.link:hover {
+	color: #C78C19;
+	text-decoration: underline;	
+}
+
+.primeiro-titulo{
+	font-size: 25px;
+    font-weight: bold;
+    margin-left: 240px;
+    margin-top: 45px;
+    margin-right: 142px;
+    color: wheat;
+}
+.primeiro-paragrafo{
+	font-size: 18px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    color: antiquewhite;
+}    
+.sobre-escola{
+    position: absolute;
+    width: 40%;
+	display: inline-block;
+}
+.violao{
+	width: 50%;
+	margin-left: 49%;
+}
+
+.divisao{
+
+	background: linear-gradient(#FFFFFF, #d29436);
+    height: 620px;
+}
+
+.segundo-titulo{
+	font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+}
+.segundo-paragrafo{
+
+	width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+
+
+.instrumentos{
+	width: 45%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    position: relative;
+    left: 660px;
+    bottom: 150px;
+}
+.mapa{
+	background: linear-gradient(#FFFFFF, #000000);
+}	
+.terceiro-titulo{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin: 40px;
+}
+.paragrafo-mapa{
+
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 25px;
+}
+
+.mapa-conteudo{
+	width: 800px;
+    height: 300px;
+    position: relative;
+    left: 20%;
+    box-shadow: -12px -8px 10px 0 #000000;
+    margin-bottom: 250px;
+}
+
+.rodape{
+	width: 100%;
+    height: 201px;
+    background: #000000;
+}
+
+.copyright{
+
+	color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
